@@ -1,0 +1,60 @@
+.device {
+  display: flex;
+  flex-direction: column;
+  // justify-content: center;
+  // align-items: center;
+  text-align: center;
+  background: $bg-card;
+  height: auto;
+  width: 16rem;
+  margin: 1rem 0;
+  padding: 1rem;
+  border-radius: 8px;
+
+  &-title {
+    padding-bottom: 1rem;
+    color: $text-title;
+  }
+}
+
+.container {
+  margin-bottom: 2rem;
+}
+
+.quality {
+  p {
+    font-size: 1.2rem;
+  }
+  &-name {
+    color: $text-subtitle;
+  }
+  &-value {
+    font-size: 2.7rem;
+    color: $text-primary;
+  }
+}
+
+.bounds {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  font-size: 0.8rem;
+}
+
+.btn {
+  width: 100%;
+  background: $text-primary;
+  color: $bg-card;
+  font-size: 1rem;
+  cursor: pointer;
+  outline: 0;
+  border: 0;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  transition: 0.3s ease-in;
+
+  &:hover {
+    background: $btn-hover;
+    color: $text-primary;
+  }
+}
