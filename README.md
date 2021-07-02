@@ -4,6 +4,9 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Live site
+  https://wizardly-bell-a70de3.netlify.app/
+
 ## How to run
 
 Running this project requires Node Js: [<http://nodejs.org>] and
